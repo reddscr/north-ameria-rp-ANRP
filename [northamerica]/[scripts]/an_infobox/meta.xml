@@ -1,0 +1,16 @@
+<meta>
+
+
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+
+    <file src="html/panel.html"/>
+    <file src="html/style.css"/>
+    <file src="html/scripts.js"/>
+    <file src="html/ui.js"/>
+
+    <export function="addNotification" type="client" />
+    <export function="addNotification" type="server" />
+
+	<oop>true</oop>
+</meta>

@@ -1,0 +1,23 @@
+
+<meta> 
+    <script src="redh.lua" cache="false" type="shared" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <file src="files/robotb.ttf"/>
+    <file src="html/panel.html"/>
+    <file src="html/css.css"/>
+    <file src="html/scripts.js"/>
+
+
+
+    <export function="startobjectposition" type="server" />
+</meta>
+
+
+
+
+
+
+
+
+
