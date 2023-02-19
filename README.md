@@ -3,7 +3,7 @@
 backup oficial do north america rp mta-sa, um servidor com a interface em html, js e css, original e sem edições.
 
 ----------------------------------------------------------------------------------------
--- GUIA DE CONFIGURAÇÃO/INFORMAÇÔES
+GUIA DE CONFIGURAÇÃO/INFORMAÇÔES
 ----------------------------------------------------------------------------------------
 
 - configure o seu banco de dados mysql no arquivo (an_connect) serverCode.lua
