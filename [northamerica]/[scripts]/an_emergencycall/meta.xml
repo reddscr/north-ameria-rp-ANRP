@@ -1,0 +1,19 @@
+<meta>
+
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <file src="files/robotb.ttf"/>
+
+    <file src="html/scripts.js"/>
+    <file src="html/prompt.js"/>
+
+
+    <file src="html/prompt.html"/>
+    <file src="html/prompt.css"/>
+
+
+    <export function="setplyemergencycall" type="client"/>
+
+    <export function="createemgblip" type="client"/>
+    <export function="createemgblipsv" type="server"/>
+</meta>

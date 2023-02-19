@@ -1,0 +1,12 @@
+<meta>
+    <script src="redc.lua" cache="false" type="client" ></script>
+
+    <file src="html/css.css"/>
+    <file src="html/scripts.js"/>
+    <file src="html/ui.js"/>
+    <file src="html/panel.html"/>
+    <file src="html/comandos.html"/>
+    <file src="html/cpenal.html"/>
+    <file src="html/inicio.html"/>
+    <file src="html/images/background.png"/>
+</meta>

@@ -1,0 +1,11 @@
+<meta>
+	<script src="redc.lua" type="client" cache="false"/>
+	<script src="reds.lua" type="server" cache="false"/>
+
+    <file src="sound_011.wav"/>
+    <file src="sound_012.wav"/>
+    <file src="horn.wav"/>
+
+	<export function="isStroboLightsOn" type="client"/>
+	<export function="setStroboLightsOn" type="client"/>
+</meta>
