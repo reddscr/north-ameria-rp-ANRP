@@ -1,0 +1,167 @@
+<meta>
+
+    <script src="redh.lua" cache="false" type="shared" ></script>
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+
+    <file src="files/robotb.ttf"/>
+    <file src="files/handcuff"/>
+    <file src="files/handcuff2"/>
+    <file src="files/hcuff.wav"/>
+
+    <file src="html/panel.html"/>
+    <file src="html/css.css"/>
+    <file src="html/scripts.js"/>
+    <file src="html/ui.js"/>
+
+    <file src="html/arsenal.html"/>
+    <file src="html/arsenal.css"/>
+
+ 
+    <file src="html/assets/icons/1.png" />
+    <file src="html/assets/icons/2.png" />
+    <file src="html/assets/icons/3.png" />
+    <file src="html/assets/icons/4.png" />
+    <file src="html/assets/icons/5.png" />
+    <file src="html/assets/icons/6.png" />
+    <file src="html/assets/icons/7.png" />
+    <file src="html/assets/icons/8.png" />
+    <file src="html/assets/icons/9.png" />
+    <file src="html/assets/icons/10.png" />
+    <file src="html/assets/icons/11.png" />
+    <file src="html/assets/icons/12.png" />
+    <file src="html/assets/icons/13.png" />
+    <file src="html/assets/icons/14.png" />
+    <file src="html/assets/icons/15.png" />
+    <file src="html/assets/icons/16.png" />
+    <file src="html/assets/icons/17.png" />
+    <file src="html/assets/icons/18.png" />
+    <file src="html/assets/icons/19.png" />
+    <file src="html/assets/icons/20.png" />
+    <file src="html/assets/icons/21.png" />
+    <file src="html/assets/icons/22.png" />
+    <file src="html/assets/icons/23.png" />
+    <file src="html/assets/icons/24.png" />
+    <file src="html/assets/icons/25.png" />
+    <file src="html/assets/icons/26.png" />
+    <file src="html/assets/icons/27.png" />
+    <file src="html/assets/icons/28.png" />
+    <file src="html/assets/icons/29.png" />
+    <file src="html/assets/icons/30.png" />
+    <file src="html/assets/icons/31.png" />
+    <file src="html/assets/icons/32.png" />
+    <file src="html/assets/icons/33.png" />
+    <file src="html/assets/icons/34.png" />
+    <file src="html/assets/icons/35.png" />
+    <file src="html/assets/icons/36.png" />
+    <file src="html/assets/icons/37.png" />
+    <file src="html/assets/icons/38.png" />
+    <file src="html/assets/icons/39.png" />
+    <file src="html/assets/icons/40.png" />
+    <file src="html/assets/icons/41.png" />
+    <file src="html/assets/icons/42.png" />
+    <file src="html/assets/icons/43.png" />
+    <file src="html/assets/icons/44.png" />
+    <file src="html/assets/icons/45.png" />
+    <file src="html/assets/icons/46.png" />
+    <file src="html/assets/icons/47.png" />
+    <file src="html/assets/icons/48.png" />
+    <file src="html/assets/icons/49.png" />
+    <file src="html/assets/icons/50.png" />
+    <file src="html/assets/icons/51.png" />
+    <file src="html/assets/icons/52.png" />
+    <file src="html/assets/icons/53.png" />
+    <file src="html/assets/icons/54.png" />
+    <file src="html/assets/icons/55.png" />
+    <file src="html/assets/icons/56.png" />
+    <file src="html/assets/icons/57.png" />
+    <file src="html/assets/icons/58.png" />
+    <file src="html/assets/icons/59.png" />
+    <file src="html/assets/icons/60.png" />
+    <file src="html/assets/icons/61.png" />
+    <file src="html/assets/icons/62.png" />
+    <file src="html/assets/icons/63.png" />
+    <file src="html/assets/icons/64.png" />
+    <file src="html/assets/icons/65.png" />
+    <file src="html/assets/icons/66.png" />
+    <file src="html/assets/icons/67.png" />
+    <file src="html/assets/icons/68.png" />
+    <file src="html/assets/icons/69.png" />
+    <file src="html/assets/icons/70.png" />
+    <file src="html/assets/icons/71.png" />
+    <file src="html/assets/icons/72.png" />
+    <file src="html/assets/icons/73.png" />
+    <file src="html/assets/icons/74.png" />
+    <file src="html/assets/icons/75.png" />
+    <file src="html/assets/icons/100.png" />
+    <file src="html/assets/icons/101.png" />
+    <file src="html/assets/icons/102.png" />
+    <file src="html/assets/icons/103.png" />
+    <file src="html/assets/icons/104.png" />
+    <file src="html/assets/icons/105.png" />
+    <file src="html/assets/icons/106.png" />
+    <file src="html/assets/icons/107.png" />
+    <file src="html/assets/icons/108.png" />
+    <file src="html/assets/icons/109.png" />
+    <file src="html/assets/icons/110.png" />
+    <file src="html/assets/icons/111.png" />
+    <file src="html/assets/icons/112.png" />
+    <file src="html/assets/icons/113.png" />
+    <file src="html/assets/icons/114.png" />
+    <file src="html/assets/icons/115.png" />
+    <file src="html/assets/icons/116.png" />
+    <file src="html/assets/icons/117.png" />
+    <file src="html/assets/icons/118.png" />
+    <file src="html/assets/icons/119.png" />
+    <file src="html/assets/icons/120.png" />
+    <file src="html/assets/icons/121.png" />
+    <file src="html/assets/icons/122.png" />
+    <file src="html/assets/icons/123.png" />
+    <file src="html/assets/icons/124.png" />
+    <file src="html/assets/icons/125.png" />
+    <file src="html/assets/icons/126.png" />
+    <file src="html/assets/icons/127.png" />
+    <file src="html/assets/icons/300.png" />
+    <file src="html/assets/icons/301.png" />
+    <file src="html/assets/icons/302.png" />
+    <file src="html/assets/icons/303.png" />
+    <file src="html/assets/icons/304.png" />
+    <file src="html/assets/icons/305.png" />
+    <file src="html/assets/icons/306.png" />
+    <file src="html/assets/icons/307.png" />
+    <file src="html/assets/icons/308.png" />
+    <file src="html/assets/icons/309.png" />
+    <file src="html/assets/icons/310.png" />
+    <file src="html/assets/icons/311.png" />
+    <file src="html/assets/icons/312.png" />
+    <file src="html/assets/icons/313.png" />
+    <file src="html/assets/icons/314.png" />
+    <file src="html/assets/icons/315.png" />
+    <file src="html/assets/icons/316.png" />
+    <file src="html/assets/icons/317.png" />
+    <file src="html/assets/icons/326.png" />
+    <file src="html/assets/icons/327.png" />
+    <file src="html/assets/icons/328.png" />
+    <file src="html/assets/icons/329.png" />
+    <file src="html/assets/icons/330.png" />
+    <file src="html/assets/icons/331.png" />
+    <file src="html/assets/icons/332.png" />
+    <file src="html/assets/icons/333.png" />
+    <file src="html/assets/icons/334.png" />
+    <file src="html/assets/icons/335.png" />
+    <file src="html/assets/icons/336.png" />
+    <file src="html/assets/icons/337.png" />
+    <file src="html/assets/icons/1000.png" />
+    <file src="html/assets/icons/1001.png" />
+    <file src="html/assets/icons/1002.png" />
+    <file src="html/assets/icons/1003.png" />
+
+    
+    <export function="getpoliceinservice" type="client"/>
+    <export function="getpoliceinservicesv" type="server"/>
+    <export function="getmedicinservice" type="client"/>
+    <export function="getmedicinservicesv" type="server"/>
+    <export function="getmechanicinservice" type="client"/>
+    <export function="getmechanicinservicesv" type="server"/>
+    
+</meta>

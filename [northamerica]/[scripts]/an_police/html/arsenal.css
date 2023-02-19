@@ -1,0 +1,78 @@
+div { border: 0; outline: 0; vertical-align: baseline; background: transparent; margin: 0; padding: 0; }
+:focus { outline: 0; }
+::selection { background: transparent; }
+
+/*.actionmenucontainer {
+	top: 50%;
+	left: 50%;
+	background: rgba(136, 77, 245, 0.76);
+	width: 250px;
+	height: 200px;
+}*/
+
+.actionmenu {
+	top: 50%;
+	left: 50%;
+	display: none;
+	position: fixed;
+	transform: translate(-50%,-50%);
+}
+
+#actionmenu button {
+	margin-left: 15px;
+	background: rgb(101, 68, 189);
+	width: 250px;
+	height: 30px;
+	border: 0;
+	color: rgba(255, 255, 255, 0.678);
+	display: block;
+	font-weight: 700;
+	margin-top: 0px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-shadow: 1px 1px #000;
+	padding: 0 20px;
+}
+
+#actionmenu button:hover {
+	background: rgba(101, 68, 189, 0.76);
+	transform: scale(1.02);
+}
+
+l {
+	width: 75%;
+	text-align: left;
+	float: left;
+}
+
+r {
+	color: rgba(255,255,255,0.5);
+	width: 25%;
+	text-align: right;
+	float: left;
+}
+
+.namemenu {
+	top: 50%;
+	left: 50%;
+	display: none;
+	position: fixed;
+	transform: translate(-50%,-50%);
+}
+
+#namemenu button {
+	margin-left: 15px;
+	background: rgb(101, 68, 189);
+	width: 250px;
+	height: 35px;
+	border: 0;
+	color: #fff;
+	display: block;
+	font-weight: 700;
+	margin-top: 10px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-shadow: 1px 1px #000;
+	padding: 0 20px;
+}
+
