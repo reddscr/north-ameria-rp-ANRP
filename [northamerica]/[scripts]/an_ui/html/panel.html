@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="http://mta/local/html/main.css" />
+	<link rel="stylesheet" href="http://mta/local/html/jquery-ui.css" />
+	<script src="http://mta/local/html/app.js"></script>
+	<script src="http://mta/local/html/scripts.js"></script>
+</head>
+	<body>
+		<div class="full-screen">
+			<div class="statusHud">
+
+				<div id="voice1" class="voicebg">
+					<div id="voicer3" class="voicebar">
+					</div>
+					<div id="voicer2" class="voicebar">
+					</div>
+					<div id="voicer1" class="voicebar">
+					</div>
+				</div>
+				<div id="varHealth" class="bar" style="background-color: rgba(34, 95, 34, 0.979);">
+					<img class="barIcon" src="img/heart.svg"></img>
+					<div id="boxSetHealth"></div>
+				</div>
+				<div id="varArmor" class="bar"  style="background-color: rgba(138, 45, 155, 0.979);">
+					<img class="barIcon" src="img/shield.svg"></img>
+					<div id="boxSetArmour"></div>
+				</div>
+				<div id="varThirst" class="bar" style="background-color: #243F85;">
+					<img class="barIcon" src="img/water.svg"></img>
+					<div id="boxSetThirst"></div>
+				</div>
+				<div id="varHunger" class="bar" style="background-color: #9B5112;">
+					<img class="barIcon" src="img/burger.svg"></img>
+					<div id="boxSetHunger"></div>
+				</div>
+				<div id="varStamina" class="bar" style="background-color: rgb(30, 109, 43)">
+					<img class="barIcon" style='filter: invert(100%);' src="img/stamina.svg"></img>
+					<div id="boxSetStamina"></div>
+				</div>
+				<div id="varCityhours" class="bar">
+					<div id="boxSetCityhours"></div>
+				</div>
+			</div>
+			<div class="statslocalandplyvoice" id="setplystats">
+				<div id="backuistatus">
+					<div id="mainmenu">
+						<button class="menuoption" id='stats1'></button>
+						<button class="menuoption" id='stats2'></button>
+					</div>
+				</div>
+			</div>
+			<div class="statsplayer" id="setplystats2" style="display: none;"></div>
+			<div id="displayLogo"></div>
+		</div>
+	</body>
+</html>
