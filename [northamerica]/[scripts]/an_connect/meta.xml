@@ -1,0 +1,25 @@
+<meta>
+    <script src="serverCode.lua" type="server" />
+    <export function="getSQLDatas" type="server" />
+    
+    <export function="getConnection" type="server" http="false" />
+    <export function="singleQuery" type="server" http="false" />
+    <export function="execute" type="server" http="false" />
+    <export function="getConnection" type="server" http="false" />
+    <export function="query" type="server" http="false" />
+    <export function="query_free" type="server" http="false" />
+    <export function="free_result" type="server" http="false" />
+    <export function="result" type="server" http="false" />
+    <export function="num_rows" type="server" http="false" />
+    <export function="query_fetch_assoc" type="server" http="false" />
+    <export function="query_rows_assoc" type="server" http="false" />
+    <export function="query_insert_free" type="server" http="false" />
+    <export function="escape_string" type="server" http="false" />
+    <export function="getMySQLUsername" type="server" />
+    <export function="getMySQLPassword" type="server" />
+    <export function="getMySQLDBName" type="server" />
+    <export function="getMySQLHost" type="server" />
+    <export function="getMySQLPort" type="server" />
+    
+    <min_mta_version server="1.3.4-0.00000" client="1.3.4-0.00000"></min_mta_version>
+</meta>

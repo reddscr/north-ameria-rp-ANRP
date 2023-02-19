@@ -1,0 +1,35 @@
+<meta>
+	<script src="driveby_client.lua" type="client" cache="false" />
+	<script src="exports_client.lua" type="client" cache="false" />
+	<script src="driveby_server.lua" type="server" cache="false" />
+	
+	<script src="utils/textlib.lua" type="client" cache="false" />
+	<script src="utils/client_anim.lua" type="client" cache="false" />
+	<script src="utils/textlib_anim.lua" type="client" cache="false" />
+	
+	<settings>
+		<setting name="driveby_driver" value="[[ 22,23,24,26,28,29,32 ]]"/>
+		
+		<setting name="driveby_passenger" value="[[ 22,23,24,25,26,28,29,32,30,31,33 ]]"/>
+		
+		<setting name="driveby_shot_delay" value="[{ '22':300,'23':300,'24':800,'26':700 }]"/>
+		
+		<setting name="driveby_blocked_vehicles" value="[[471,432,601,437,431,592,553,577,488,497,548,563,512,476,447,425,519,520,460,417,469,487,513,441,464,501,465,564,538,449,537,539,570472,473,493,595,484,430,453,452,446,454,606,591,607,611,610,590,569,611,435,608,584,450 ]]"/>
+		
+		<setting name="driveby_steer_cars" value="[true]"/>
+		
+		<setting name="driveby_steer_bikes" value="[true]"/>
+		
+		<setting name="driveby_auto_equip" value="[false]"/>
+	</settings>
+	<export function="setDriverDrivebyAbility" type="client" />
+	<export function="setPassengerDrivebyAbility" type="client" />
+	<export function="getDriverDrivebyAbility" type="client" />
+	<export function="getPassengerDrivebyAbility" type="client" />
+	<export function="setWeaponShotDelay" type="client" />
+	<export function="getWeaponShotDelay" type="client" />
+	<export function="setDrivebySteeringAbility" type="client" />
+	<export function="getDrivebySteeringAbility" type="client" />
+	<export function="setDrivebyAutoEquip" type="client" />
+	<export function="getDrivebyAutoEquip" type="client" />
+</meta>
