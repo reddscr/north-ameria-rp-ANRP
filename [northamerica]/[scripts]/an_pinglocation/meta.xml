@@ -1,0 +1,4 @@
+<meta> 
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <script src="redc.lua" cache="false" type="client" ></script>
+</meta>

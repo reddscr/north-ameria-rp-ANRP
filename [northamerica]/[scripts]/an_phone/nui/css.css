@@ -1,0 +1,515 @@
+body,td,th { font-size: 12px; font-family: arial; color: #666; cursor: default; vertical-align: baseline; outline: 0; line-height: 1; margin: 0; padding: 0; word-wrap: break-word; }
+a,a:link,a:visited,a:active,a:hover { font-family: arial; font-size: 12px; color: #666; text-decoration: none; }
+div,span,applet,object,iframe,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr { border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; margin:0; padding:0; }
+:focus { outline:0; }
+img { border:none; }
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+}
+  
+  
+::-webkit-scrollbar-thumb {
+	background-color: transparent;
+	border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+	background-color: #a6c8ffb9;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=text]::-webkit-inner-spin-button, input[type=text]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html {
+    overflow: hidden;
+    font-family: monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#actionmenu{
+    display: flex;
+	top: 35%;
+	right: 40px;
+    width: 170px;
+    height: 350px;
+    position: fixed;
+    background-image: url('images/iphonex.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+/* ----------------------------------------- */
+
+#main {
+    position: fixed;
+    width: 160px;
+    margin: 5px;
+    margin-top: 14px;
+    height: 320px;
+    float: left;
+    background-image: url('images/anbg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 7px;
+}
+
+#calllist {
+	background: transparent;
+	width: 30px;
+	height: 30px;
+	float: left;
+    margin-left: 5px;
+    margin-top: 285px;
+	text-align: center;
+	border-radius: 50%;
+    color: rgb(138, 138, 138);
+}
+
+#calllistIcon {
+	height: 30px;
+    background-repeat: no-repeat;
+	opacity: 0.8;
+	outline: transparent !important;
+}
+
+#calllistIcon:hover {
+	filter: opacity(75%);
+}
+/* ------------------------------------------ MSG ------------------------------------------ */
+#messageplate {
+    position: fixed;
+    width: 159px;
+    height: 230px;
+    float: left;
+    background-color: transparent;
+	overflow-y: scroll;
+}
+
+#messageplate2 {
+	display: flex;
+    position: fixed;
+    width: 159px;
+	height: 35px;
+	margin-top: 232px;
+    float: left;
+    background-color: transparent;
+    border-radius: 7px;
+	overflow-y: scroll;
+	align-items: center;
+}
+
+#msglist {
+	background: transparent;
+	width: 30px;
+	height: 30px;
+	float: left;
+    margin-left: 5px;
+    margin-top: 285px;
+	text-align: center;
+	border-radius: 50%;
+    color: rgb(138, 138, 138);
+}
+
+#msglistIcon {
+	height: 30px;
+    background-repeat: no-repeat;
+	opacity: 0.8;
+	outline: transparent !important;
+}
+
+#msglistIcon:hover {
+	filter: opacity(75%);
+}
+
+#returnbuttommessage {
+	background: rgba(255, 255, 255, 0.445);
+	padding: 10px 0;
+	margin: -10px 0px;
+	width: 30px;
+	height: 11px;
+	float: left;
+    margin-left: 5px;
+    margin-top: 285px;
+	text-align: center;
+	border-radius: 50%;
+    color: rgb(138, 138, 138);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.068);
+}
+
+#returnbuttommessage:hover {
+	background: rgba(255, 255, 255, 0.739);
+}
+
+#returnbuttommessageIcon{
+	height: 15px;
+	margin-right: 2px;
+	margin-top: -1px;
+	opacity: 0.8;
+	outline: transparent !important;
+}
+
+#sendtommessage {
+	background: rgba(255, 255, 255, 0.445);
+	padding: 10px 0;
+	margin: -1px 0px;
+	width: 30px;
+	height: 11px;
+	float: left;
+    margin-left: 5px;
+	text-align: center;
+	border-radius: 50%;
+    color: rgb(138, 138, 138);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.068);
+}
+
+#sendtommessage:hover {
+	background: rgba(255, 255, 255, 0.739);
+}
+
+#sendtommessageIcon{
+	height: 15px;
+	margin-top: -2px;
+	opacity: 0.8;
+	outline: transparent !important;
+}
+/* ------------------------------------------ ------------------------------------------ */
+#returnbuttom {
+	background: rgba(255, 255, 255, 0.445);
+	padding: 10px 0;
+	margin: -10px 0px;
+	width: 30px;
+	height: 11px;
+	float: left;
+    margin-left: 5px;
+    margin-top: 285px;
+	text-align: center;
+	border-radius: 50%;
+    color: rgb(138, 138, 138);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.068);
+}
+
+#returnbuttom:hover {
+	background: rgba(255, 255, 255, 0.739);
+}
+
+#returnbuttomIcon{
+	height: 15px;
+	margin-right: 2px;
+	margin-top: -1px;
+	opacity: 0.8;
+	outline: transparent !important;
+}
+
+#turnoffcall {
+	background: rgba(255, 255, 255, 0.445);
+	padding: 10px 0;
+	margin: -10px 0px;
+	width: 30px;
+	height: 11px;
+	float: left;
+    margin-left: 55px;
+    margin-top: 30px;
+	text-align: center;
+	border-radius: 50%;
+    color: rgb(138, 138, 138);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.068);
+}
+
+#turnoffcall:hover {
+	background: rgba(253, 131, 131, 0.739);
+}
+
+#turnoffcallIcon{
+	height: 15px;
+	margin-right: 2px;
+	margin-top: -1px;
+	opacity: 0.8;
+	outline: transparent !important;
+}
+
+#turnoncall {
+	background: rgba(255, 255, 255, 0.445);
+	padding: 10px 0;
+	margin: -10px 0px;
+	width: 30px;
+	height: 11px;
+	float: left;
+    margin-left: 55px;
+    margin-top: 30px;
+	text-align: center;
+	border-radius: 50%;
+    color: rgb(138, 138, 138);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.068);
+}
+
+#turnoncall:hover {
+	background: rgba(253, 131, 131, 0.739);
+}
+
+#turnoncallIcon{
+	height: 15px;
+	margin-right: 2px;
+	margin-top: -1px;
+	opacity: 0.8;
+	outline: transparent !important;
+}
+
+#addcontactbuttom {
+	background: rgba(255, 255, 255, 0.445);
+	padding: 10px 0;
+	margin: -10px 0px;
+	width: 30px;
+	height: 11px;
+	float: left;
+    margin-left: 5px;
+    margin-top: 285px;
+	text-align: center;
+	border-radius: 50%;
+    color: rgb(138, 138, 138);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.068);
+}
+
+#addcontactbuttom:hover {
+	background: rgba(255, 255, 255, 0.739);
+}
+
+#addcontactbuttomIcon{
+	height: 15px;
+	margin-top: -1px;
+	opacity: 0.8;
+	outline: transparent !important;
+}
+
+#addnewmessage {
+	background: rgba(255, 255, 255, 0.445);
+	padding: 10px 0;
+	margin: -10px 0px;
+	width: 30px;
+	height: 11px;
+	float: left;
+    margin-left: 5px;
+    margin-top: 285px;
+	text-align: center;
+	border-radius: 50%;
+    color: rgb(138, 138, 138);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.068);
+}
+
+#addnewmessage:hover {
+	background: rgba(255, 255, 255, 0.739);
+}
+
+#addnewmessageIcon{
+	height: 15px;
+	margin-top: -1px;
+	opacity: 0.8;
+	outline: transparent !important;
+}
+
+textarea {
+  resize: none;
+  border: none;
+  background-color: rgba(187, 187, 187, 0.726);
+  border-radius: 5px;
+  text-align: center;
+
+}
+/*                                              CONTACTS                                                */
+
+#mainphonecontacts {
+    position: fixed;
+    margin-top: 20px;
+    width: 159px;
+    height: 260px;
+    float: left;
+    background-color: transparent;
+    border-radius: 7px;
+	overflow-y: scroll;
+}
+
+.modelmsg {
+    background: rgba(255, 255, 255, 0.541);
+	padding: 15px 0 20px 15px;
+	color: #333;
+    width: 132px;
+	float: left;
+    margin-left: 2px;
+    margin-top: 2px;
+	border-radius: 5px;
+	scroll-behavior: inherit;
+}
+
+.model {
+    background: rgba(255, 255, 255, 0.541);
+	padding: 15px 0 20px 15px;
+	color: #333;
+    width: 135px;
+    height: 15px;
+	float: left;
+    margin-left: 2px;
+    margin-top: 2px;
+	border-radius: 5px;
+}
+
+.name {
+	width: 90px;
+	font-weight: 700;
+    height: 12px;
+    font-size: 10px;
+	float: left;
+	text-align: left;
+	letter-spacing: 0px;
+	color: rgb(75, 75, 75);
+}
+
+.name nl{
+	color: rgba(46, 46, 46, 0.774);
+	font-size: 8.2px;
+	font-weight: 700;
+}
+
+.msg {
+    background: transparent;
+    padding: 10px 0;
+    margin: -10px 0px;
+	float: right;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.msgIcon {
+	height: 15px;
+	opacity: 0.8;
+	outline: transparent !important;
+}
+
+.msgIcon:hover {
+	filter: opacity(75%);
+}
+
+.trashmsg {
+    background: transparent;
+    padding: 10px 0;
+    margin: -10px 0px;
+	float: right;
+    text-align: center;
+	margin-right: 2px;
+	margin-top: -15px;
+}
+
+.trash {
+    background: transparent;
+    padding: 10px 0;
+    margin: -10px 0px;
+	float: right;
+    text-align: center;
+	margin-right: 5px;
+}
+
+.trashIcon {
+	height: 15px;
+	opacity: 0.8;
+	outline: transparent !important;
+}
+
+.trashIcon:hover {
+	filter: opacity(75%);
+}
+
+/*                                                          MODAL                                               */
+
+.confirm-modal{
+    position: fixed;
+    background-color: gainsboro;
+    margin-top: 30px;
+    width: 140px;
+    text-align: center;
+	font-weight: 700;
+    font-size: 9px;
+	letter-spacing: 0px;
+    color: rgb(75, 75, 75);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.confirm-modal .btn{
+    background: rgba(255, 255, 255, 0.541);
+	border: 0px;
+	margin-top: 7px;
+	border: none;
+	padding: 7px;
+	border-radius: 5px;
+	font-weight: 700;
+    font-size: 10px;
+	letter-spacing: 0px;
+	color: rgb(75, 75, 75);
+}
+
+.confirm-modal .btn:hover{
+	background: rgba(189, 214, 255, 0.739);
+}
+
+.confirm-modal .btn2{
+    background: rgba(255, 255, 255, 0.541);
+	border: 0px;
+	margin-top: 7px;
+	border: none;
+	padding: 7px;
+	border-radius: 5px;
+	font-weight: 700;
+    font-size: 10px;
+	letter-spacing: 0px;
+	color: rgb(75, 75, 75);
+}
+
+.confirm-modal .btn2:hover{
+	background: rgba(247, 214, 214, 0.739);
+}
+
+.confirm-modal input{
+    margin-top: 10px;
+	padding:10px;
+	width: 120px;
+	height: 10px;
+	border: none;
+	outline: none;
+	background: rgba(255, 255, 255, 0.651);
+	border-radius: 3px;
+	font-weight: 700;
+    font-size: 10px;
+	transition: transform .2s;
+	text-align: center;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+	src: url('roboto.ttf');
+	color: rgb(65, 65, 65);
+}

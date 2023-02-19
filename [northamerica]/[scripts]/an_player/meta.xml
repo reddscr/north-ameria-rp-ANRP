@@ -1,0 +1,15 @@
+<meta> 
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <file src="files/nitrous.mp3"/>
+    <file src="files/nitroef0.ogg"/>
+    <file src="files/nitroef00.mp3"/>
+    <file src="files/nitroef2.ogg"/>
+    <file src="files/nitroef3.ogg"/>
+    <export function="getproxply" type="server" />
+    <export function="getproxveh" type="server" />
+    <export function="getproxclientply" type="client" />
+    <export function="generateStringNumber" type="server" />
+    <export function="getproxclientveh" type="client" />
+    <export function="SetBlurEffect" type="server" />
+</meta>

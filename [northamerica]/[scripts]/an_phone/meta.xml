@@ -1,0 +1,22 @@
+<meta> 
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <file src="nui/nui.html"/>
+    <file src="nui/css.css"/>
+    <file src="nui/scripts.js"/>
+    <file src="nui/jquery.js"/>
+
+    <file src="nui/images/iphonex.png" />
+    <file src="nui/images/anbg.png" />
+    <file src="nui/images/ligar.svg" />
+    <file src="nui/images/excluir.svg" />
+    <file src="nui/images/retorna.svg" />
+    <file src="nui/images/addc.svg" />
+    <file src="nui/images/fim.svg" />
+    <file src="nui/images/init.svg" />
+    <file src="nui/images/msg.svg" />
+    <file src="nui/images/contacts.svg" />
+    <file src="nui/images/mmsg.svg" />
+    <file src="nui/images/send.svg" />
+    <export function="policeid" type="server" />
+</meta>
