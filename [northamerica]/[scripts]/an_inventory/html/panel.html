@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <link rel="stylesheet" href="http://mta/local/html/jquery-ui.css" />
+  <link rel="stylesheet" href="http://mta/local/html/style.css" />
+  <script src="http://mta/local/html/scripts.js"></script>
+  <script src="http://mta/local/html/jsquerry.js"></script>
+  <script src="http://mta/local/html/ui.js"></script>
+  	<body>
+		<div class="full-screen">
+			<div class="container">
+				<b class="esquerda"></b><b class="weight"></b>
+				<div id="items" class="flex">
+					<b class="infos"> <br><br><br></b>
+				</div>
+				<div id="functions">
+					<input id="amount" type="number" placeholder="Quantidade" onkeypress='return isNumberKey(event)' oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '1');">	</br>
+					<button id="useitem" class="function" >Usar</button></br>
+					<button id="send" class="function" >Enviar</button></br>
+					<button id="drop" class="function" >Jogar</button></br>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+

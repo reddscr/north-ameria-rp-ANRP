@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <link rel="stylesheet" href="http://mta/local/html/jquery-ui.css" />
+  <link rel="stylesheet" href="http://mta/local/html/style.css" />
+  <script src="http://mta/local/html/scripts.js"></script>
+  <script src="http://mta/local/html/jsquerry.js"></script>
+  <script src="http://mta/local/html/ui.js"></script>
+  <body>
+	  <script>
+		  $(function () {
+			  $("#dialog").dialog({
+				  autoOpen: false,
+				  clickOutside: true
+			  });
+		  });
+	  </script>
+		<div class="full-screen2">
+			<div class="pincipalcontainer">
+				<div class="thetrunkcontainer1">
+					<b class="infotrunk1"></b><b class="weighttrunk1"></b>
+						<div id="trunk1" class="flex">
+							<b class="infos"> <br><br><br></b>
+						</div>
+				</div>
+				<div class="thetrunkcontainer2">
+					<b class="infotrunk2"></b><b class="weighttrunk2"></b>
+						<div id="trunk2" class="flex">
+							<b class="infos"> <br><br><br></b>
+						</div>
+				</div>
+				<div id="thetrunkfunctions">
+					<input id="amount" type="number" placeholder="Quantidade" onkeypress='return isNumberKey(event)' oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">	</br>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				mta.triggerEvent("requestinvinfo3");
+				document.onkeyup = function (data) {
+				if (data.which == 73) {
+						mta.triggerEvent("closechest")
+					}
+				};
+			});
+		</script>
+    </body>
+</html>

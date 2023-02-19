@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <link rel="stylesheet" href="http://mta/local/html/jquery-ui.css" />
+  <link rel="stylesheet" href="http://mta/local/html/trade.css" />
+  <script src="http://mta/local/html/scripts.js"></script>
+  <script src="http://mta/local/html/jsquerry.js"></script>
+  <script src="http://mta/local/html/trade.js"></script>
+  <body>
+		<div class="full-screen2">
+			<div class="pincipalcontainer">
+				<div class="thetraddecontainer1">
+					<b class="infotradde1"></b><b class="weighttradde1"></b>
+						<div id="tradde1" class="flex">
+							<b class="infos"> <br><br><br></b>
+						</div>
+				</div>
+				<div class="thetraddecontainer2">
+					<b class="infotradde2"></b><b class="weighttradde2" style="display: none;"></b>
+						<div id="tradde2" class="flex">
+							<b class="infos"> <br><br><br></b>
+						</div>
+				</div>
+				<div id="thetraddefunctions">
+					<input id="tradeamount" type="number" placeholder="Quantidade" onkeypress='return isNumberKey(event)' oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">	</br>
+				</div>
+			</div>
+        </div>
+    </body>
+</html>
