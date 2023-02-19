@@ -1,0 +1,12 @@
+<meta>
+    <script src="redc.lua" type="client" cache="false"></script>
+    <script src="reds.lua" type="server" cache="false"></script>
+    <script src="redh.lua" type="shared" cache="false"></script>
+    <file src="files/robotb.ttf"/>
+
+    <export function="setplyjail" type="server"/>
+    <export function="removeplyjail" type="server"/>
+    <export function="loadjailed" type="server"/>
+
+
+</meta>
