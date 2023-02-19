@@ -1,0 +1,15 @@
+<meta>
+
+  <script src="redsh.lua" type="shared" cache="false" />
+  <script src="reds2.lua" type="server" cache="false" />
+  <script src="redc.lua" type="client" cache="false" />
+    
+  <script src="reds.lua" cache="false" type="server" ></script>
+
+
+  <file src="index.html" cache="false" />
+  <file src="styles.css" cache="false" />
+  <file src="scripts.js" cache="false" />
+  <export function="isChatVisible" type="client" />
+  <export function="useDefaultOutput" type="server" />
+</meta>

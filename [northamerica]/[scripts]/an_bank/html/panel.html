@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+	<link rel="stylesheet" href="http://mta/local/html/style.css" />
+    <script src="http://mta/local/html/scripts.js"></script>
+    <script src="http://mta/local/html/ui.js"></script>
+	<body>
+		<div class="full-screen">
+			<div class="container">
+				<div onclick="close(this)" id="closeb" class="close">X</div>
+				<div id="main" class="modelcontainer">
+					
+				</div>
+				<div id="depositmenu" class="functions" style="display: none;">
+					<input id="amountcash" type="number" onkeypress="return isNumberKey(event)" placeholder="valor" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">	</br>
+					<br><br>
+					<div class="functionsIcon" id="deposit"><img class="img" style='filter: invert(30%);' src="images/deposito.svg"></img></div>
+					<br><br><br>
+					<div class="functionsIcon" id="returntomain"><img class="img" style='filter: invert(30%);' src="images/retorna.svg"></img></div>
+				</div>
+				<div id="withmenu" class="functions" style="display: none;">
+					<input id="amountcash2" type="number" onkeypress="return isNumberKey(event)" placeholder="valor" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">	</br>
+					<br><br>
+					<div class="functionsIcon" id="withdraw"><img class="img" style='filter: invert(30%);' src="images/retirar.svg"></img></div>
+					<br><br><br>
+					<div class="functionsIcon" id="returntomain2"><img class="img" style='filter: invert(30%);' src="images/retorna.svg"></img></div>
+				</div>
+				<div id="transfermenu" class="functions" style="display: none;">
+					<input id="amountcash3" type="number" onkeypress="return isNumberKey(event)" placeholder="valor" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">	</br>
+					<input id="amountcash4" type="number" onkeypress="return isNumberKey(event)" placeholder="Para quem?" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">	</br>
+					<br><br>
+					<div class="functionsIcon" id="transfer"><img class="img" style='filter: invert(30%);' src="images/transferir.svg"></img></div>
+					<br><br><br>
+					<div class="functionsIcon" id="returntomain3"><img class="img" style='filter: invert(30%);' src="images/retorna.svg"></img></div>
+				</div>
+				<div id="loading" class="circle" style="display: none;"></div>
+				<div id="notifications"></div>
+			</div>
+
+		</div>
+    </body>
+</html>
+
+

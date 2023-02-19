@@ -1,0 +1,7 @@
+﻿<meta>
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <file src="ccinto.ogg"/>
+    <file src="tcinto.ogg"/>
+    <file src="heartbeat.ogg"/>
+</meta>

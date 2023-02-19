@@ -1,0 +1,195 @@
+body,td,th { font-size: 12px; font-family: arial; color: #666; cursor: default; vertical-align: baseline; outline: 0; line-height: 1; margin: 0; padding: 0; word-wrap: break-word; }
+a,a:link,a:visited,a:active,a:hover { font-family: arial; font-size: 12px; color: #666; text-decoration: none; }
+div,span,applet,object,iframe,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr { border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; margin:0; padding:0; }
+:focus { outline:0; }
+img { border:none; }
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+}
+  
+  
+::-webkit-scrollbar-thumb {
+	background-color: transparent;
+	border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+	background-color: #a6c8ffb9;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html {
+    overflow: hidden;
+    font-family: monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#actionmenu{
+	top: 35%;
+	right: 3px;
+    width: 300px;
+    height: 250px;
+    position: fixed;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(-180deg, rgba(182, 180, 180, 0.836), rgba(223, 223, 223, 0.376));
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.65)!important; 
+}
+
+/* ----------------------------------------- */
+#inicio {
+    width: 280px;
+	height: 197px;
+	margin: 10px;
+	float: left;
+	overflow-y: scroll;
+}
+
+s {
+    color: #a6c8ff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+	src: url('roboto.ttf');
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(34, 34, 34), 0 0 5px rgb(34, 34, 34);
+}
+
+.slot {
+	background: rgba(255, 255, 255, 0.308);
+	padding: 5px 0 5px 15px;
+	width: 285px;
+	font-weight: 700;
+    height: 15px;
+    font-size: 10px;
+	float: left;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	color: rgb(75, 75, 75);
+}
+
+.model {
+	color: #333;
+	width: 100%;
+	background: transparent;
+	float: left;
+	margin-bottom: 3px;
+}
+
+.name {
+	background: rgba(255, 255, 255, 0.541);
+	padding: 15px 0 20px 15px;
+	width: 250px;
+	font-weight: 700;
+    height: 12px;
+    font-size: 10px;
+	float: left;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	color: rgb(75, 75, 75);
+	border-radius: 5px;
+}
+
+.name nl{
+	color: rgba(46, 46, 46, 0.774);
+	font-size: 8.2px;
+	font-weight: 700;
+}
+
+.close {
+    position: absolute;
+    margin-top: 2px;
+	background-color:rgba(207, 36, 36, 0.664);
+	border:1px solid #fcfcfc;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	src: url('roboto.ttf');
+    text-transform: uppercase;
+	font-size:12px;
+	padding:2px 3.2px;
+    text-decoration:none;
+    right: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.close:hover {
+    background-color:rgba(105, 16, 16, 0.555);
+}
+
+.view {
+	background: rgba(255, 255, 255, 0.246);
+	padding: 10px 0;
+	margin: -10px 0px;
+	width: 30px;
+	height: 11px;
+	float: right;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 50%;
+    color: rgb(138, 138, 138);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.068);
+}
+
+.view:hover {
+	background: rgba(114, 105, 233, 0.562);
+}
+
+.viewIcon {
+	height: 15px;
+	margin-right: 2px;
+	margin-top: -1px;
+	opacity: 0.8;
+	outline: transparent !important;
+}
+
+.buy {
+	background: rgba(255, 255, 255, 0.246);
+	padding: 10px 0;
+	margin: -10px 0px;
+	width: 30px;
+	height: 11px;
+	float: right;
+	margin-right: 20px;
+	text-align: center;
+	border-radius: 50%;
+    color: rgb(138, 138, 138);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.068);
+}
+
+.buy:hover {
+	background: rgba(111, 134, 85, 0.562);
+}
+
+.buyIcon {
+	height: 15px;
+	margin-right: 2px;
+	opacity: 0.8;
+	outline: transparent !important;
+}

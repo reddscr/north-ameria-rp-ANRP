@@ -1,0 +1,144 @@
+div { border: 0; outline: 0; vertical-align: baseline; background: transparent; margin: 0; padding: 0; }
+:focus { outline: 0; }
+::selection { background: transparent; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	word-wrap: break-word;
+	color: #fff;
+	text-shadow: 1px 1px rgba(0,0,0,0.6);
+}
+
+body {
+  margin: 0;
+}
+
+
+#chat {
+	text-align: center;
+	font-family: Arial;
+	font-size: 1.5em;
+	padding: 5px;
+	position: fixed;
+	left: 1%;
+	top: 10%;
+	width: 20%;
+	height: 70%;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.localchat {
+  position: absolute;
+  left: 0;
+  top: 45px;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	word-wrap: break-word;
+  color: #fff;
+  text-shadow:1px 1px rgba(0,0,0,0.6);
+  overflow-x: hidden;
+  user-select: none;
+}
+
+.localchat.hidden {
+  visibility: hidden;
+}
+
+.localchat__messages-container {
+  position: absolute;
+  max-height: 100%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.localchat__messages {
+  top:0%;
+  position: relative;
+  height: 85%;
+  overflow-y: scroll;
+}
+
+.localchat__messages::-webkit-scrollbar {
+  width: 0.1vh;
+}
+
+.localchat__messages::-webkit-scrollbar-track,
+.localchat__messages::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.localchat__message {
+  word-break: break-all;
+  font-size: 13px;
+  line-height: 130%;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #DADADA;
+}
+
+.localchat__message:last-child {
+  margin-bottom: 0;
+}
+
+
+.chat__input-block {
+  position: relative;
+}
+
+.chat__input-block.hidden {
+  display: none;
+}
+
+.chat__input-label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 1vh 2vh;
+  margin-left: 2vh;
+  transform: translateY(-50%);
+  border-radius: 1vh;
+  text-transform: uppercase;
+  font-size: 4vh;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+.chat__input {
+  padding: 2vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 0px solid #c0c0c0e7;
+  border-right: 1.35px solid #c0c0c0e7;
+  border-left: 1.35px solid #c0c0c0e7;
+  color: #ffffff;
+  font-size: 4.5vh;
+  text-shadow: 0 0.1vh 0.2vh rgba(0, 0, 0, 0.5);
+  font-family: sans-serif;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.chat__input:focus {
+  outline: none;
+}
