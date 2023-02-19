@@ -1,8 +1,6 @@
 # north-ameria-rp-ANRP
 
 backup oficial do north america rp mta-sa, original e sem edições.
-en - backup of north america rp mta-sa.
-
 
 ----------------------------------------------------------------------------------------
 -- GUIA DE CONFIGURAÇÃO/INFORMAÇÔES
