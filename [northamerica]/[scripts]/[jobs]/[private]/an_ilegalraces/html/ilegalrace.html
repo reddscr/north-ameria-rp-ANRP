@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+	<link rel="stylesheet" href="http://mta/local/html/ilegalrace.css" />
+	<script src="http://mta/local/html/scripts.js"></script>
+    <body>
+		<div id="namemenu">
+		<button class="menuoption"><l>DK</l><r>group</r></button>
+		</div>
+		<div id="actionmenu">
+			<div id="mainmenu">
+				<button class="menuoption" data-action="racetkt"><l>Race ticket</l><r>$ 500</r></button>
+				<button class="menuoption" data-action="nitro"><l>Nitrous</l><r>$ 2500</r></button>
+				<button class="menuoption" data-action="fechar">Fechar</button>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				init();
+
+				var actionContainer = $("#actionmenu");
+
+				window.addEventListener('message',function(event){
+					var item = event.data;
+
+					if (item.showmenu){
+						ResetMenu()
+						actionContainer.show();
+					}
+
+					if (item.hidemenu){
+						actionContainer.hide();
+					}
+				});
+
+				document.onkeyup = function(data){
+					if (data.which == 27){
+						if (actionContainer.is(":visible")){
+							sendData("ButtonClick","fechar")
+						}
+					}
+				};
+			})
+			function ResetMenu(){
+				$("div").each(function(i,obj){
+					var element = $(this);
+
+					if (element.attr("data-parent")){
+						element.hide();
+					} else {
+						element.show();
+					}
+				});
+			}
+
+			function init() {
+				$(".menuoption").each(function(i,obj){
+
+					if ($(this).attr("data-action")){
+						$(this).click(function(){
+							var data = $(this).data("action"); 
+							sendData("ButtonClick",data); 
+						})
+					}
+
+					if ($(this).attr("data-sub")){
+						var menu = $(this).data("sub");
+						var element = $("#"+menu);
+
+						$(this).click(function(){
+							element.show();
+							$(this).parent().hide();
+						})
+
+						var backBtn = $('<button/>',{text:'Voltar'});
+
+						backBtn.click(function(){
+							element.hide();
+							$("#"+element.data("parent")).show();
+						});
+
+						element.append(backBtn);
+					}
+				});
+			}
+			function sendData(name,data){
+				mta.triggerEvent("theilegalracefunctions",data);
+			}
+		</script>
+    </body>
+</html>

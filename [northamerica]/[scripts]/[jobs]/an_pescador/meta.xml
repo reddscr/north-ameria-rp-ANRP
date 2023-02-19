@@ -1,0 +1,12 @@
+<meta>
+    <script src="redh.lua" type="shared" cache ="false" />
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+
+    <file src="html/panel.html"/>
+    <file src="html/style.css"/>
+    <file src="html/scripts.js"/>
+
+    <file src="files/robotb.ttf"/>
+
+</meta>
