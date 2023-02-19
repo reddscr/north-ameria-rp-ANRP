@@ -1,0 +1,30 @@
+<meta> 
+
+    <script src="redh.lua" cache="false" type="shared" ></script>
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+
+    <file src="nui/nui.html"/>
+    <file src="nui/css.css"/>
+    <file src="nui/scripts.js"/>
+    <file src="nui/jquery.js"/>
+    <file src="nui/images/excluir.svg"/>
+    <file src="nui/images/play.svg"/>
+    <file src="nui/images/olho.svg"/>
+    <file src="nui/images/comprar.svg"/>
+    <export function="getallitens" type="client"  cache="false"/>
+    <export function="hasPermission" type="client"  cache="false"/>
+    <export function="getitemtable3" type="client"  cache="false"/>
+    <export function="getitemtable2client" type="client"  cache="false"/>
+    <export function="getitemtable" type="client"  cache="false"/>
+    <export function="remplyitem" type="server"  cache="false"/>
+    <export function="attplyitem" type="server"  cache="false"/>
+    <export function="addplyitem" type="server"  cache="false"/>
+    <export function="servergetitemtable" type="server"  cache="false"/>
+    <export function="servergetitemtable2" type="server"  cache="false"/>
+    <export function="servergetitemtable3" type="server"  cache="false"/>
+    <export function="hasPermission" type="server"  cache="false"/>
+    <export function="an_getrealTimer" type="server" cache="false"/>
+    <export function="an_getrealTimeraddedday" type="server" cache="false"/>
+    <export function="loadaccountsystem" type="client" cache="false"/>
+</meta>
