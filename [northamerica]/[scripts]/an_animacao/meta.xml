@@ -1,0 +1,7 @@
+﻿<meta>
+    <script src="redh.lua" cache="false" type="shared" ></script>
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <file src="anim/wpn.txd" />
+	<file src="anim/wpn.dff" />
+</meta>

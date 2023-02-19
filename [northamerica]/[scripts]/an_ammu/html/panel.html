@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+	<link rel="stylesheet" href="http://mta/local/html/style.css" />
+	<script src="http://mta/local/html/scripts.js"></script>
+	<script src="http://mta/local/html/ui.js"></script>
+	<body>
+		<div id="namemenu">
+			<button class="menuoption">AMMUNATION</button>
+		</div>
+		<div id="actionmenu">
+			<div id="mainmenu">
+				<button class="menuoption" data-sub="whitegun">Arma branca</button>
+				<button class="menuoption" data-sub="firegun">Arma de fogo</button>
+				<button class="menuoption" data-sub="gunmagazine">Munição</button>
+				<button class="menuoption" data-action="fechar">Fechar</button>
+			</div>
+			<div data-parent="mainmenu" id="whitegun" style="display: none;">
+				<button class="menuoption" data-action="faca" data-price="500" data-qtd="1"><l>Faca</l><r>$ 500</r></button>
+			</div>
+			<div data-parent="mainmenu" id="firegun" style="display: none;">
+				<button class="menuoption" data-action="pistol" data-price="55000" data-qtd="1"><l>M1911</l><r>$ 55000</r></button>
+				<button class="menuoption" data-action="winchester22" data-price="155000" data-qtd="1"><l>Winchester 22</l><r>$ 155000</r></button>
+			</div>
+			<div data-parent="mainmenu" id="gunmagazine" style="display: none;">
+				<button class="menuoption" data-action="pistolammu" data-price="300" data-qtd="1"><l>x10 M1911</l><r>$ 2550</r></button>
+				<button class="menuoption" data-action="winchester22ammu" data-price="250" data-qtd="1"><l>x10 Winchester 22</l><r>$ 5250</r></button>
+			</div>
+		</div>
+    </body>
+</html>
+
+
