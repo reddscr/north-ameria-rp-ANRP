@@ -1,0 +1,6 @@
+<meta> 
+    <!--<script src="cfg/cfg.xml" type="shared" cache ="false" />-->
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <file src="robotb.ttf"/>
+</meta>
