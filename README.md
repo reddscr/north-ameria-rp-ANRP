@@ -1,6 +1,6 @@
 # north-ameria-rp-ANRP
 
-backup oficial do north america rp mta-sa, original e sem edições.
+backup oficial do north america rp mta-sa, um servidor com a interface em html, js e css, original e sem edições.
 
 ----------------------------------------------------------------------------------------
 -- GUIA DE CONFIGURAÇÃO/INFORMAÇÔES
@@ -33,3 +33,5 @@ backup oficial do north america rp mta-sa, original e sem edições.
 - adicione novos moveis na loja de moveis pelo arquivo (an_house_i) redh.lua - necessário configurar posição
 
 - explore os scripts...
+
+*post original, por reddscr(criador)
