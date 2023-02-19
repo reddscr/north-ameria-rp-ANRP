@@ -1,0 +1,23 @@
+<meta>
+    <script src="sourceG.lua" type="shared" cache="false" />
+    <script src="sourceC.lua" type="client" cache="false" />
+    <script src="sourceS.lua" type="server" cache="false" />
+    
+    <file src="graphics.fx" />
+    
+    <!-- Paintjobs -->
+    <file src="paintjobs/mustanggt/1.png" />
+    <file src="paintjobs/mustanggt/2.png" />
+    <file src="paintjobs/mustanggt/3.png" />
+    <file src="paintjobs/mustanggt/4.png" />
+    <file src="paintjobs/mustanggt/5.png" />
+
+
+    <!-- Paintjobs -->
+    
+    <export function="getVehiclePaintJobs" type="client"></export>
+    <export function="addVehiclePaintJob" type="shared"></export>
+    <export function="destroyShaderCache" type="shared"></export>
+
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>
