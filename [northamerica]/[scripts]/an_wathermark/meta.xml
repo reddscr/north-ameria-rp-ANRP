@@ -1,0 +1,9 @@
+<meta>
+
+
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <file src="html/panel.html"/>
+    <file src="html/ui.css"/>
+    <file src="html/img/an.png"/>
+
+</meta>

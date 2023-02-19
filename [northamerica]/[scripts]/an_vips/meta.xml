@@ -1,0 +1,8 @@
+<meta> 
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <script src="redc.lua" cache="false" type="client" ></script>
+
+    <export function="seplyvip" type="server"/>
+    <export function="loadvip" type="server"/>
+    
+</meta>

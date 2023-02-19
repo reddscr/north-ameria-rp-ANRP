@@ -1,0 +1,42 @@
+<meta>
+    <script src="redh.lua" cache="false" type="shared" ></script>
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <file src="files/robotb.ttf"/>
+    <file src="files/turnalarm.ogg"/>
+    <file src="files/turnalarm2.ogg"/>
+
+    <file src="nui/dealership/nui.html"/>
+    <file src="nui/dealership/jquery.js"/>
+    <file src="nui/dealership/css.css"/>
+    <file src="nui/dealership/scripts.js"/>
+    <file src="nui/dealership/images/background.png"/>
+    <file src="nui/dealership/images/comprar.svg"/>
+    <file src="nui/dealership/images/vender.svg"/>
+    <file src="nui/dealership/images/olho.svg"/>
+    <file src="nui/dealership/images/truck.svg"/>
+    <file src="nui/dealership/images/car.svg"/>
+    <file src="nui/dealership/images/moto.svg"/>
+    <file src="nui/dealership/images/garage.svg"/>
+
+    
+    <file src="nui/gerenc/nui.html"/>
+    <file src="nui/gerenc/jquery.js"/>
+    <file src="nui/gerenc/css.css"/>
+    <file src="nui/gerenc/scripts.js"/>
+    <file src="nui/garage/nui.html"/>
+    <file src="nui/garage/jquery.js"/>
+    <file src="nui/garage/css.css"/>
+    <file src="nui/garage/scripts.js"/>
+
+
+    <export function="getVehicleData" type="client"  cache="false"/>
+    <export function="getVehicleData" type="server"  cache="false"/>
+    <export function="findVeh" type="client"  cache="false"/>
+    <export function="findVeh" type="server"  cache="false"/>
+    <export function="updatevehicle" type="server" cache="false"/>
+    <export function="saveVehicle" type="server" cache="false"/>
+    <export function="saveVehicleUpgrades" type="server" cache="false"/>
+    <export function="openplyhousegarage" type="server" cache="false"/>
+    <export function="resettimerdeleteveh" type="server" cache="false"/>
+</meta>

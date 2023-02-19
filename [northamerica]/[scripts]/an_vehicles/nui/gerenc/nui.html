@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+    <link rel="stylesheet" href="http://mta/local/nui/gerenc/css.css" />
+  	<script src="http://mta/local/nui/gerenc/scripts.js"></script>
+	  <script src="http://mta/local/nui/gerenc/jquery.js"></script>
+	<body>
+			<body>
+		<div class="full-screen">
+			<div class="pincipalcontainer">
+				<div class="thegerencicontainer">
+          <div onclick="closevg()" class="close">X</div>
+					<b class="infogerenci"></b><b class="weightgerenci"></b>
+            <div id="gerenci" class="flex">
+							<b class="infos"> <br><br><br></b>
+            </div>
+              <center>
+                <div onclick="vendveh()" class="Button">Vender</div>
+              </center>
+            </div>
+        </div>
+        <div id="functionsvehsell" style="display: none;">
+          <input id="plyvehprice" type="number" placeholder="Valor"  maxlength="1000000000" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '1');">
+          <button class="function" id="confirmationpriceveh" onclick="confirmationpriceveh(this)">Confirmar</button></br>
+        </div>
+        <div id="notifications"></div>
+      </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  	<link rel="stylesheet" href="http://mta/local/nui/dealership/css.css" />
+  	<script src="http://mta/local/nui/dealership/scripts.js"></script>
+	<script src="http://mta/local/nui/dealership/jquery.js"></script>
+	<body>
+        <div class="mainpanel">
+            <div class="mainmenu"> 
+                <div class="buttom" data-typ-key="${typ}" data-name-key="${id}" onclick=(requestuserveh())><img class="buttomIcon" style='filter: invert(50%);' src="images/garage.svg"></img></div>
+                <div class="buttom" data-typ-key="${typ}" data-name-key="${id}" onclick=(requesttruck())><img class="buttomIcon" style='filter: invert(50%);' src="images/truck.svg"></img></div>
+                <div class="buttom" data-typ-key="${typ}" data-name-key="${id}" onclick=(requestbikes())><img class="buttomIcon" style='filter: invert(50%);' src="images/moto.svg"></img></div>
+                <div class="buttom" data-typ-key="${typ}" data-name-key="${id}" onclick=(requestcars())><img class="buttomIcon" style='filter: invert(50%);' src="images/car.svg"></img></div> 
+            </div>
+            <div id="inicio"></div>
+			<button id="actionbutton"></button>
+        </div>
+	</body>
+</html>

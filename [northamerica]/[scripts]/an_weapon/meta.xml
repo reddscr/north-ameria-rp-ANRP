@@ -1,0 +1,5 @@
+﻿<meta>
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>
