@@ -2,6 +2,8 @@
 
 backup oficial do north america rp mta-sa, um servidor com a interface em html, js e css, original e sem edições.
 
+https://youtu.be/tO7gklMcM8k
+
 ----------------------------------------------------------------------------------------
 GUIA DE CONFIGURAÇÃO/INFORMAÇÔES
 ----------------------------------------------------------------------------------------
