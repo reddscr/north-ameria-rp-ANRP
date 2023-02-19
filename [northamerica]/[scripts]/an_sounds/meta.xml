@@ -1,0 +1,6 @@
+<meta>
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <file src="files/alarm.ogg"/>
+    <export type="server" function="setalarmsound"/>
+</meta>

@@ -1,0 +1,11 @@
+<meta>
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <script src="redh.lua" cache="false" type="shared" ></script>
+    <export function="resettimerdeletevehrental" type="server"  cache="false"/>
+    <file src="files/robotb.ttf"/>
+    <file src="html/panelg.html"/>
+    <file src="html/cssg.css"/>
+    <file src="html/scripts.js"/>
+    <file src="html/uig.js"/>
+</meta>

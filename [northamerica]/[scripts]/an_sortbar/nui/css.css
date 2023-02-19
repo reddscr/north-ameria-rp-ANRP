@@ -1,0 +1,77 @@
+body,td,th { font-size: 12px; font-family: arial; color: #666; cursor: default; vertical-align: baseline; outline: 0; line-height: 1; margin: 0; padding: 0; word-wrap: break-word; }
+a,a:link,a:visited,a:active,a:hover { font-family: arial; font-size: 12px; color: #666; text-decoration: none; }
+div,span,applet,object,iframe,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr { border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; margin:0; padding:0; }
+:focus { outline:0; }
+img { border:none; }
+
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html {
+    overflow: hidden;
+    font-family: monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#actionmenu{
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 80%;
+    width: 250px;
+    height: 20px;
+    position: fixed;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(-180deg, rgba(37, 37, 37, 0.836), rgba(223, 223, 223, 0.376));
+	border: 1px solid rgba(255, 255, 255, 0.65)!important; 
+    display: flex;
+}
+
+#bar{
+	display: flex;
+	position: fixed;
+	margin-left: 0px;
+    background-image: linear-gradient(-90deg, rgba(218, 77, 77, 0.836), rgba(223, 223, 223, 0));
+	width: 5px;
+    height: 20px;
+}
+
+#barsort{
+	position: fixed;
+	display: flex;
+	margin-left: 0px;
+	background-color: rgba(0, 128, 0, 0.376);
+	border-left: 1px solid rgba(255, 255, 255, 0.65)!important; 
+	border-right: 1px solid rgba(255, 255, 255, 0.65)!important; 
+	width: 0px;
+    height: 20px;
+}
+
+#text{
+    font-family: 'Roboto', sans-serif;
+    src: url('roboto.ttf');
+    width: 250px;
+    height: 20px;
+    align-items: center;
+    margin: 5px;
+    text-align: center;
+    color: gainsboro;
+    text-transform: uppercase;
+}
+#text g{
+    font-family: 'Roboto', sans-serif;
+    src: url('roboto.ttf');
+    text-transform: uppercase;
+    color: rgb(41, 89, 223);
+}
+
+

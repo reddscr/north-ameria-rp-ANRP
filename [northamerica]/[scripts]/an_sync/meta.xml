@@ -1,0 +1,11 @@
+<meta>
+	<oop>true</oop>
+
+	<script type="server" src="reds.lua" cache="false"/>
+	<script type="client" src="redc.lua" cache="false"/>
+
+	<export type="server" function="setServerTime"/>
+	<export type="client" function="forceTime"/>
+	<export type="client" function="restoreTime"/>
+	<export type="server" function="getantime"/>
+</meta>

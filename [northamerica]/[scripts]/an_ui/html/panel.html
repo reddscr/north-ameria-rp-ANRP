@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="http://mta/local/html/main.css" />
+	<link rel="stylesheet" href="http://mta/local/html/jquery-ui.css" />
+	<script src="http://mta/local/html/app.js"></script>
+	<script src="http://mta/local/html/scripts.js"></script>
+</head>
+	<body>
+		<div class="full-screen">
+			<div class="statusHud">
+
+				<div id="voice1" class="voicebg">
+					<div id="voicer3" class="voicebar">
+					</div>
+					<div id="voicer2" class="voicebar">
+					</div>
+					<div id="voicer1" class="voicebar">
+					</div>
+				</div>
+					<svg class="circle" height="37px" width="37px">
+						<circle
+							class="progressplayer health"
+							stroke="rgba(67, 185, 67, 0.712)"
+							stroke-width="4"
+							style="stroke-opacity: 0.9"
+							fill="#000000"
+							cx="19" cy="19" r="16"
+							stroke-dasharray="70 30"
+							stroke-dashoffset="0"
+						/>
+						<image
+							href="img/heart.svg"
+							style="opacity: 70%;"
+							height="13"
+							width="13"
+							x="12.5"
+							y="12"
+						></image>
+					</svg>
+					<svg class="circle" height="37px" width="37px">
+						<circle
+						class="progressplayer armour"
+						stroke="rgba(138, 45, 155, 0.979)"
+						stroke-width="4"
+						style="stroke-opacity: 0.9"
+						fill="#000000"
+						cx="19" cy="19" r="16"
+						stroke-dasharray="70 30"
+						stroke-dashoffset="0"
+						/>
+						<image
+						href="img/shield.svg"
+						style="opacity: 70%;"
+						height="13"
+						width="13"
+						x="12.5"
+						y="12"
+						></image>
+					</svg>
+
+					<svg class="circle" height="37px" width="37px">
+						<circle
+							class="progressplayer thisrt"
+							stroke="#3C5F9B"
+							stroke-width="4"
+							style="stroke-opacity: 0.9"
+							fill="#000000"
+							cx="19" cy="19" r="16"
+							stroke-dasharray="70 30"
+							stroke-dashoffset="0"
+						/>
+						<image
+							href="img/water.svg"
+							style="opacity: 70%;"
+							height="13"
+							width="13"
+							x="12.5"
+							y="12"
+						></image>
+					</svg>
+					<svg class="circle" height="37px" width="37px">
+						<circle
+							class="progressplayer hunger"
+							stroke="#cc752e"
+							stroke-width="4"
+							style="stroke-opacity: 0.9"
+							fill="#000000"
+							cx="19" cy="19" r="16"
+							stroke-dasharray="70 30"
+							stroke-dashoffset="0"
+						/>
+						<image
+							href="img/burger.svg"
+							style="opacity: 70%;"
+							height="13"
+							width="13"
+							x="12.5"
+							y="12"
+						></image>
+					</svg>
+					<svg class="circle" height="37px" width="37px">
+						<circle
+							class="progressplayer stamina"
+							stroke="#d0ca25"
+							stroke-width="4"
+							style="stroke-opacity: 0.9"
+							fill="#000000"
+							cx="19" cy="19" r="16"
+							stroke-dasharray="70 30"
+							stroke-dashoffset="0"
+						/>
+						<image
+							href="img/stamina.svg"
+							style='opacity: 70%; filter: invert(100%);'
+							height="13"
+							width="13"
+							x="12.5"
+							y="12"
+						></image>
+					</svg>
+			</div>
+			<div class="statslocalandplyvoice" id="setplystats">
+				<div id="backuistatus">
+					<div id="mainmenu">
+						<button class="menuoption" id='stats1'></button>
+						<button class="menuoption" id='stats2'></button>
+					</div>
+				</div>
+			</div>
+			<div class="statsplayer" id="setplystats2" style="display: none;"></div>
+			<div id="displayLogo"></div>
+		</div>
+	</body>
+</html>

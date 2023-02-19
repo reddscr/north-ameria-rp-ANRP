@@ -1,0 +1,11 @@
+<meta>
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <file src="files/robotb.ttf"/>
+    <file src="nui/nui.html"/>
+    <file src="nui/jquery.js"/>
+    <file src="nui/css.css"/>
+    <file src="nui/scripts.js"/>
+    <export function="narequestsort" type="client" />
+    <export function="narequestsort" type="server" />
+</meta>

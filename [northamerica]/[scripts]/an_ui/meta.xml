@@ -1,0 +1,16 @@
+<meta>
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <file src="html/logo.png"/>
+    <file src="html/panel.html"/>
+    <file src="html/app.js"/>
+    <file src="html/scripts.js"/>
+    <file src="html/main.css"/>
+    <file src="html/jquery-ui.css"/>
+    <file src="html/img/heart.svg"/>
+    <file src="html/img/burger.svg"/>
+    <file src="html/img/oxy.svg"/>
+    <file src="html/img/shield.svg"/>
+    <file src="html/img/water.svg"/>
+    <file src="html/img/stamina.svg"/>
+</meta>

@@ -1,0 +1,12 @@
+<meta>
+    <script src="redc.lua" cache="false" type="client" ></script>
+    <script src="reds.lua" cache="false" type="server" ></script>
+    <file src="html/panel.html"/>
+    <file src="html/style.css"/>
+    <file src="html/scripts.js"/>
+    <file src="html/ui.js"/>
+    <export function="naquestionrequest" type="client" />
+    <export function="naquestionrequest" type="server" />
+    <export function="naremovequestionrequest" type="client" />
+    <export function="naremovequestionrequest" type="server" />
+</meta>
