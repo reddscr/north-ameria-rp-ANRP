@@ -1,8 +1,11 @@
-# north-ameria-rp-ANRP-
-backup of north america rp mta-sa.
+# north-ameria-rp-ANRP
+
+backup oficial do north america rp mta-sa, original e sem edições.
+en - backup of north america rp mta-sa.
+
 
 ----------------------------------------------------------------------------------------
--- GUIA
+-- GUIA DE CONFIGURAÇÃO/INFORMAÇÔES
 ----------------------------------------------------------------------------------------
 
 - configure o seu banco de dados mysql no arquivo (an_connect) serverCode.lua
@@ -27,7 +30,7 @@ backup of north america rp mta-sa.
 
 - você pode ver todos os comandos de player no tablet (f9) in-game ou no arquivo (an_helptbt)
 
-- todos os models/veiculos do servidor estão protegidos no arquivo (an_loading)
+- não inclui modelagens/veículos.
 
 - adicione novos moveis na loja de moveis pelo arquivo (an_house_i) redh.lua - necessário configurar posição
 
