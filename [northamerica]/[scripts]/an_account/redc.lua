@@ -20,7 +20,7 @@ function loadaccountsystem()
     setCameraMatrix(1090.346, 1076.669, 12, 1088.102, 1072.252, 10.836)
     triggerServerEvent("spawnplayer", localPlayer,localPlayer)
 end
---addEventHandler ("onClientResourceStart", getResourceRootElement(getThisResource()), loadaccountsystem)
+addEventHandler ("onClientResourceStart", getResourceRootElement(getThisResource()), loadaccountsystem)
 
 function setNUiCharacterstat()
     if (not isElement(webnui)) then
